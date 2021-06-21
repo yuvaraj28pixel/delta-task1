@@ -460,7 +460,7 @@ body{
         font-size:15px;
     }
     #name {
-        visibility:visible;
+        visibility:hidden;
         position:absolute;
         bottom:5px;
         right:5px;
@@ -468,7 +468,7 @@ body{
     }
     #ok {
         
-        visibility:visible;
+        visibility:hidden;
         position:absolute;
         bottom:5px;
         right:1px;

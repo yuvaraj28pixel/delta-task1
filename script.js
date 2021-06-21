@@ -24,10 +24,9 @@ function arrange(){
         if(color.includes(tabcolor)===false)
         {
             color.push(tabcolor);
-            console.log(tabcolor);
         }    
     }
-    console.log(color);
+    
     
     
 
@@ -166,12 +165,10 @@ function arrange(){
             let random = Math.floor(Math.random()*n);
             if(num.includes(random)===false){
                 num.push(random);
-                console.log(random);
                 minicolor.push(arrcolor[random]);
             }
             
         }
-        console.log(minicolor);
 
         document.getElementById('s01').style.backgroundColor=minicolor[0];
         document.getElementById('s02').style.backgroundColor=minicolor[1];
@@ -245,7 +242,7 @@ function arrange(){
                 num.push(random);
                 minicolor.push(arrcolor[random]);
             }
-            console.log(minicolor);
+          
         }
 
         document.getElementById('s01').style.backgroundColor=minicolor[0];

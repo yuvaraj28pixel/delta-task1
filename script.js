@@ -83,7 +83,7 @@ function arrange(){
        
         
          for(let i=0;num.length<(m**2); i++){
-              let random = Math.floor(Math.random()*n)+1;
+              let random = Math.floor(Math.random()*n);
              if(num.includes(random)===false){
                  num.push(random);
                  let temp=arrcolor[random];
@@ -163,7 +163,7 @@ function arrange(){
     
         var num=[];
         for(let i=0;num.length<(m**2); i++){
-            let random = Math.floor(Math.random()*n)+1;
+            let random = Math.floor(Math.random()*n);
             if(num.includes(random)===false){
                 num.push(random);
                 console.log(random);
@@ -240,7 +240,7 @@ function arrange(){
    
 
         for(let i=0;num.length<(m**2); i++){
-            let random = Math.floor(Math.random()*n)+1;
+            let random = Math.floor(Math.random()*n);
             if(num.includes(random)===false){
                 num.push(random);
                 minicolor.push(arrcolor[random]);
